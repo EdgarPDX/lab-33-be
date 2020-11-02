@@ -12,7 +12,7 @@ describe('lab-33-be routes', () => {
 
     
     return request(app)
-      .post('/api/v1/entries')
+      .post('/entries')
       .send({
         journalDate:'11/1/2020',
         gratefulEntry: 'Being alive',
